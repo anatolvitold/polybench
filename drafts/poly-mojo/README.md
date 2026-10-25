@@ -3,7 +3,7 @@
 **Status: awaiting a published Poly Mojo release and approval to submit upstream.**
 
 This branch preserves the proposal and validation record. The implementation is
-on [`feat/poly-mojo`](https://github.com/anatolvitold/polybench-integration/tree/feat/poly-mojo),
+on [`feat/poly-mojo`](https://github.com/anatolvitold/polybench/tree/feat/poly-mojo),
 at commit `3cb99b389952c28d483b6632b527be2fcfe50276`. The proposed upstream target is
 [`tueda/polybench:main`](https://github.com/tueda/polybench/tree/main).
 
