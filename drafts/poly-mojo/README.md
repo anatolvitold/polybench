@@ -31,8 +31,6 @@ It contains the validated code commit above and is open for review.
 The earlier API permission errors are retained as historical information in
 [the submission state](submission-state.json); they no longer block submission.
 
-The submitted description's Quick Start needs the pinned manifest path,
-`POLY_MOJO_PATH`, and polybench's actual CLI (`--type`, without a `run`
-subcommand). [The corrected section](quick-start.md) is ready to paste into the
-PR description. Updating the PR through this integration returned HTTP 403;
-the code and README already contain the correct setup.
+The owner updated the PR description's Quick Start. It now matches
+[the verified instructions](quick-start.md), including the pinned manifest path,
+`POLY_MOJO_PATH`, and polybench's actual CLI. The description correction is resolved.

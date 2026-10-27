@@ -58,7 +58,7 @@
       "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965"
     }
   },
-  "updated_utc": "2026-10-27T19:06:25.246671+00:00",
+  "updated_utc": "2026-10-27T19:08:11.244790+00:00",
   "code_commit": "c782c5351fcfcd0039a71dd632197fd6bab00c74",
   "validation": {
     "python_tests": 61,
@@ -78,8 +78,10 @@
     "rest": "Resource not accessible by integration (HTTP 403)"
   },
   "description_correction": {
-    "state": "awaiting-owner-edit",
+    "state": "resolved",
     "replacement_section": "quick-start.md",
-    "error": "Resource not accessible by integration (HTTP 403)"
+    "verified_utc": "2026-10-27T19:08:11.244790+00:00",
+    "pr_updated_at": "2026-10-27T19:07:34Z",
+    "previous_edit_error": "Resource not accessible by integration (HTTP 403)"
   }
 }
