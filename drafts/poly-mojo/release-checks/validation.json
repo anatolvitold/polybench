@@ -1,0 +1,1381 @@
+{
+  "package": "poly_mojo==1.0.1",
+  "installed_wheel": "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/lib/python3.12/site-packages/polybench/__init__.py",
+  "complete": true,
+  "records": [
+    {
+      "profile": "small",
+      "kind": "trivial-gcd",
+      "options": {
+        "nvars": 2,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 1,
+        "max_degree": 3,
+        "min_nterms": 2,
+        "max_nterms": 4,
+        "max_coeff": 100
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/small/trivial-gcd",
+        "--type",
+        "trivial-gcd",
+        "--nvars",
+        "2",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "1",
+        "--max-degree",
+        "3",
+        "--min-nterms",
+        "2",
+        "--max-nterms",
+        "4",
+        "--max-coeff",
+        "100"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 1,
+      "driver_reuses": 1,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        }
+      ],
+      "input_sha256": "86d8feb76e55ad88ffefdfd87993e55a11c8d248e33a65d26b32acad6d3e0b12"
+    },
+    {
+      "profile": "small",
+      "kind": "nontrivial-gcd",
+      "options": {
+        "nvars": 2,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 1,
+        "max_degree": 3,
+        "min_nterms": 2,
+        "max_nterms": 4,
+        "max_coeff": 100
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/small/nontrivial-gcd",
+        "--type",
+        "nontrivial-gcd",
+        "--nvars",
+        "2",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "1",
+        "--max-degree",
+        "3",
+        "--min-nterms",
+        "2",
+        "--max-nterms",
+        "4",
+        "--max-coeff",
+        "100"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        }
+      ],
+      "input_sha256": "c4c9835c097459be98673671081531ac1c46061fb3ad877b4ad07066b0130be1"
+    },
+    {
+      "profile": "small",
+      "kind": "trivial-factor",
+      "options": {
+        "nvars": 2,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 1,
+        "max_degree": 3,
+        "min_nterms": 2,
+        "max_nterms": 4,
+        "max_coeff": 100
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/small/trivial-factor",
+        "--type",
+        "trivial-factor",
+        "--nvars",
+        "2",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "1",
+        "--max-degree",
+        "3",
+        "--min-nterms",
+        "2",
+        "--max-nterms",
+        "4",
+        "--max-coeff",
+        "100"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        }
+      ],
+      "input_sha256": "4a9d441456fad2b932c0d16b9b17fc06aece55c40cd6a0f2bc40d1d347b862ce"
+    },
+    {
+      "profile": "small",
+      "kind": "nontrivial-factor",
+      "options": {
+        "nvars": 2,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 1,
+        "max_degree": 3,
+        "min_nterms": 2,
+        "max_nterms": 4,
+        "max_coeff": 100
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/small/nontrivial-factor",
+        "--type",
+        "nontrivial-factor",
+        "--nvars",
+        "2",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "1",
+        "--max-degree",
+        "3",
+        "--min-nterms",
+        "2",
+        "--max-nterms",
+        "4",
+        "--max-coeff",
+        "100"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=2"
+            ]
+          },
+          "binary_sha256": "e55401a8e3bb47624b9eaa3a458b2d30eeeca141b82c4420091dc6ce80005f37"
+        }
+      ],
+      "input_sha256": "1c11a9f9d5bb9cc003b4c9575edc1903e0da232c8ab21b08ce82703d10448558"
+    },
+    {
+      "profile": "medium",
+      "kind": "trivial-gcd",
+      "options": {
+        "nvars": 3,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 2,
+        "max_degree": 4,
+        "min_nterms": 4,
+        "max_nterms": 8,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/medium/trivial-gcd",
+        "--type",
+        "trivial-gcd",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "2",
+        "--max-degree",
+        "4",
+        "--min-nterms",
+        "4",
+        "--max-nterms",
+        "8",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 1,
+      "driver_reuses": 1,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "d2664dfc92adabe02c3d43c23ae1cd170978f68e54bbef811292140539801e79"
+    },
+    {
+      "profile": "medium",
+      "kind": "nontrivial-gcd",
+      "options": {
+        "nvars": 3,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 2,
+        "max_degree": 4,
+        "min_nterms": 4,
+        "max_nterms": 8,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/medium/nontrivial-gcd",
+        "--type",
+        "nontrivial-gcd",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "2",
+        "--max-degree",
+        "4",
+        "--min-nterms",
+        "4",
+        "--max-nterms",
+        "8",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "96a789e3f8ed73e1ae00c80deafba2b4b0864ff42b406f0ee127ae33e4fc529e"
+    },
+    {
+      "profile": "medium",
+      "kind": "trivial-factor",
+      "options": {
+        "nvars": 3,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 2,
+        "max_degree": 4,
+        "min_nterms": 4,
+        "max_nterms": 8,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/medium/trivial-factor",
+        "--type",
+        "trivial-factor",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "2",
+        "--max-degree",
+        "4",
+        "--min-nterms",
+        "4",
+        "--max-nterms",
+        "8",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "42467cd6211bde6ba8a94a27a1d2f35f95487ca979f55c2a131255a406da90d7"
+    },
+    {
+      "profile": "medium",
+      "kind": "nontrivial-factor",
+      "options": {
+        "nvars": 3,
+        "nproblems": 10,
+        "nwarmups": 2,
+        "min_degree": 2,
+        "max_degree": 4,
+        "min_nterms": 4,
+        "max_nterms": 8,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/medium/nontrivial-factor",
+        "--type",
+        "nontrivial-factor",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "10",
+        "--nwarmups",
+        "2",
+        "--min-degree",
+        "2",
+        "--max-degree",
+        "4",
+        "--min-nterms",
+        "4",
+        "--max-nterms",
+        "8",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 10,
+      "warmups": 2,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "fe15ef9653a029d3b30f288a23c6c4acae17d9ca23f7e91996e6dbaca97aa15f"
+    },
+    {
+      "profile": "larger",
+      "kind": "trivial-gcd",
+      "options": {
+        "nvars": 3,
+        "nproblems": 5,
+        "nwarmups": 1,
+        "min_degree": 4,
+        "max_degree": 8,
+        "min_nterms": 8,
+        "max_nterms": 16,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/larger/trivial-gcd",
+        "--type",
+        "trivial-gcd",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "5",
+        "--nwarmups",
+        "1",
+        "--min-degree",
+        "4",
+        "--max-degree",
+        "8",
+        "--min-nterms",
+        "8",
+        "--max-nterms",
+        "16",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 5,
+      "warmups": 1,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "adc566ba138515c0adead59726ac8544c80441f15259f6227a2f123a3226f9c7"
+    },
+    {
+      "profile": "larger",
+      "kind": "nontrivial-gcd",
+      "options": {
+        "nvars": 3,
+        "nproblems": 5,
+        "nwarmups": 1,
+        "min_degree": 4,
+        "max_degree": 8,
+        "min_nterms": 8,
+        "max_nterms": 16,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/larger/nontrivial-gcd",
+        "--type",
+        "nontrivial-gcd",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "5",
+        "--nwarmups",
+        "1",
+        "--min-degree",
+        "4",
+        "--max-degree",
+        "8",
+        "--min-nterms",
+        "8",
+        "--max-nterms",
+        "16",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 5,
+      "warmups": 1,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "bcd8122e22e9d0412e91348f202cdda126087503420794cfa03e8844b30aa7fd"
+    },
+    {
+      "profile": "larger",
+      "kind": "trivial-factor",
+      "options": {
+        "nvars": 3,
+        "nproblems": 5,
+        "nwarmups": 1,
+        "min_degree": 4,
+        "max_degree": 8,
+        "min_nterms": 8,
+        "max_nterms": 16,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/larger/trivial-factor",
+        "--type",
+        "trivial-factor",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "5",
+        "--nwarmups",
+        "1",
+        "--min-degree",
+        "4",
+        "--max-degree",
+        "8",
+        "--min-nterms",
+        "8",
+        "--max-nterms",
+        "16",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 5,
+      "warmups": 1,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "16216bb7262da9074534a61a9325360d1627ee794cf82da79cce5b0754eb2716"
+    },
+    {
+      "profile": "larger",
+      "kind": "nontrivial-factor",
+      "options": {
+        "nvars": 3,
+        "nproblems": 5,
+        "nwarmups": 1,
+        "min_degree": 4,
+        "max_degree": 8,
+        "min_nterms": 8,
+        "max_nterms": 16,
+        "max_coeff": 16384
+      },
+      "command": [
+        "/workspace/benchmark-submissions-1.0.1/polybench/wheel-env/bin/python",
+        "-m",
+        "polybench",
+        "--flint",
+        "--polymojo",
+        "--polymojocertified",
+        "--keep-temp",
+        "--fail-on-setup-failure",
+        "--exp-dist",
+        "uniform",
+        "--seed",
+        "42",
+        "--timeout",
+        "120",
+        "--plot-suffixes",
+        "png",
+        "--build-directory",
+        "/workspace/polybench-contribution/build",
+        "--output-directory",
+        "/workspace/benchmark-submissions-1.0.1/polybench/comparison/larger/nontrivial-factor",
+        "--type",
+        "nontrivial-factor",
+        "--nvars",
+        "3",
+        "--nproblems",
+        "5",
+        "--nwarmups",
+        "1",
+        "--min-degree",
+        "4",
+        "--max-degree",
+        "8",
+        "--min-nterms",
+        "8",
+        "--max-nterms",
+        "16",
+        "--max-coeff",
+        "16384"
+      ],
+      "completed": 5,
+      "warmups": 1,
+      "verified_against_flint": true,
+      "driver_builds": 0,
+      "driver_reuses": 2,
+      "provenance": [
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        },
+        {
+          "inputs": {
+            "schema": 1,
+            "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+            "compiler": "Mojo 1.2.0 (2016d0cd)",
+            "compiler_path": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/bin/mojo",
+            "modular_home": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default/share/max",
+            "platform": [
+              "Linux",
+              "x86_64"
+            ],
+            "packages": {
+              "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+              "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+              "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+            },
+            "flags": [
+              "--num-threads",
+              "1",
+              "-O3",
+              "-D",
+              "NVARS=3"
+            ]
+          },
+          "binary_sha256": "e71d15da120ff649b71d5013e4e9981ce006c5ecf36237f161f33d4695cd9f99"
+        }
+      ],
+      "input_sha256": "ebd2e32a33ec16d98576090ef0c2d47276cf477b252e3512f47e27d4b916a875"
+    }
+  ],
+  "measured_cases": 100,
+  "warmups": 20,
+  "driver_builds": 2,
+  "driver_reuses": 22,
+  "inputs_identical_to_earlier_source_validation": true,
+  "wheel_sha256": "38286e647e5ec624b3b1efd1be5571ba661fef95510ca93e1e7612525da3dca3"
+}

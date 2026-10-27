@@ -1,0 +1,32 @@
+Using Python 3.12.14 environment at: /workspace/benchmark-submissions-1.0.1/polybench/wheel-env
+Resolved 26 packages in 683ms
+Downloading fonttools (5.2MiB)
+ Downloaded fonttools
+Prepared 2 packages in 263ms
+Installed 26 packages in 73ms
+ + colorama==0.4.6
+ + colorlog==6.12.0
+ + contourpy==1.4.0
+ + cycler==0.12.1
+ + fonttools==4.68.0
+ + importlib-metadata==4.13.0
+ + importlib-resources==5.13.0
+ + kiwisolver==1.5.1
+ + matplotlib==3.11.2
+ + numpy==2.5.4
+ + packaging==26.3
+ + pandas==2.3.3
+ + pillow==13.0.0
+ + polybench==0.4.4a0 (from file:///workspace/benchmark-submissions-1.0.1/polybench/dist/polybench-0.4.4a0-py3-none-any.whl)
+ + pretty-errors==1.2.25
+ + psutil==7.2.2
+ + py-cpuinfo==9.0.0
+ + pyparsing==3.3.3
+ + python-dateutil==3.0.0
+ + pytz==2026.5
+ + six==1.17.0
+ + symengine==0.13.0
+ + toml==0.10.2
+ + typing-extensions==4.16.0
+ + tzdata==2026.5
+ + zipp==4.1.2

@@ -1,0 +1,25 @@
+Starting small trivial-gcd
+Passed small trivial-gcd
+Starting small nontrivial-gcd
+Passed small nontrivial-gcd
+Starting small trivial-factor
+Passed small trivial-factor
+Starting small nontrivial-factor
+Passed small nontrivial-factor
+Starting medium trivial-gcd
+Passed medium trivial-gcd
+Starting medium nontrivial-gcd
+Passed medium nontrivial-gcd
+Starting medium trivial-factor
+Passed medium trivial-factor
+Starting medium nontrivial-factor
+Passed medium nontrivial-factor
+Starting larger trivial-gcd
+Passed larger trivial-gcd
+Starting larger nontrivial-gcd
+Passed larger nontrivial-gcd
+Starting larger trivial-factor
+Passed larger trivial-factor
+Starting larger nontrivial-factor
+Passed larger nontrivial-factor
+DONE 100 measured cases; 20 warmups; 2 driver builds; 22 cache reuses

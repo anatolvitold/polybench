@@ -1,0 +1,23 @@
+check for case conflicts.................................................Passed
+check illegal windows names..........................(no files to check)Skipped
+check json...........................................(no files to check)Skipped
+check for merge conflicts................................................Passed
+check for broken symlinks............................(no files to check)Skipped
+check toml...........................................(no files to check)Skipped
+check vcs permalinks.....................................................Passed
+check yaml...........................................(no files to check)Skipped
+detect private key.......................................................Passed
+fix utf-8 byte order marker..............................................Passed
+mixed line ending........................................................Passed
+clang-format.........................................(no files to check)Skipped
+cpplint..............................................(no files to check)Skipped
+cmake-format.........................................(no files to check)Skipped
+cmake-lint...........................................(no files to check)Skipped
+black................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped
+mypy.................................................(no files to check)Skipped
+shellcheck...........................................(no files to check)Skipped
+Validate GitHub Workflows............................(no files to check)Skipped
+Lint GitHub Actions workflow files...................(no files to check)Skipped
+Check .editorconfig rules................................................Passed
+gitlint..................................................................Passed
