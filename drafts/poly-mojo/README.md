@@ -1,6 +1,6 @@
 # Poly Mojo benchmark contribution
 
-**Status: published-package validation complete; ready for upstream submission.**
+**Status: fully prepared and pushed; GitHub denied this integration permission to open the upstream PR.**
 
 The implementation is on
 [`feat/poly-mojo`](https://github.com/anatolvitold/polybench/tree/feat/poly-mojo).
@@ -21,3 +21,12 @@ submission after checking the installed package; no further approval is needed.
 Prepared code commit: `c782c5351fcfcd0039a71dd632197fd6bab00c74`. All 61 Python tests and pre-commit checks
 passed; the installed wheel passed 100 measured cases and 20 warmups against FLINT
 in both modes. [Release checks](release-checks/) preserve the evidence.
+
+## Submission
+
+The GraphQL and REST API submission attempts both returned “Resource not
+accessible by integration” (REST HTTP 403). No upstream PR was created.
+
+[Open the prepared comparison](https://github.com/tueda/polybench/compare/main...anatolvitold:feat/poly-mojo?expand=1), use [the title](title.txt) and
+[the PR description](pull-request.md), and submit from the owner's GitHub account.
+The release pin, lockfile, checks, code, and review evidence are already complete.

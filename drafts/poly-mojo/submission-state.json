@@ -1,5 +1,5 @@
 {
-  "state": "ready-for-pr",
+  "state": "submission-blocked",
   "upstream": "tueda/polybench",
   "base_branch": "main",
   "head": "anatolvitold:feat/poly-mojo",
@@ -58,7 +58,7 @@
       "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965"
     }
   },
-  "updated_utc": "2026-10-27T18:58:17.302778+00:00",
+  "updated_utc": "2026-10-27T18:59:52.689668+00:00",
   "code_commit": "c782c5351fcfcd0039a71dd632197fd6bab00c74",
   "validation": {
     "python_tests": 61,
@@ -69,5 +69,10 @@
     "driver_builds": 2,
     "driver_reuses": 22,
     "inputs_identical_to_earlier_source_validation": true
+  },
+  "compare_url": "https://github.com/tueda/polybench/compare/main...anatolvitold:feat/poly-mojo?expand=1",
+  "submission_errors": {
+    "graphql": "Resource not accessible by integration (createPullRequest)",
+    "rest": "Resource not accessible by integration (HTTP 403)"
   }
 }
