@@ -1,6 +1,6 @@
 # Poly Mojo benchmark contribution
 
-**Status: fully prepared and pushed; GitHub denied this integration permission to open the upstream PR.**
+**Status: submitted as [tueda/polybench#178](https://github.com/tueda/polybench/pull/178).**
 
 The implementation is on
 [`feat/poly-mojo`](https://github.com/anatolvitold/polybench/tree/feat/poly-mojo).
@@ -24,9 +24,15 @@ in both modes. [Release checks](release-checks/) preserve the evidence.
 
 ## Submission
 
-The GraphQL and REST API submission attempts both returned “Resource not
-accessible by integration” (REST HTTP 403). No upstream PR was created.
+The owner opened [PR #178](https://github.com/tueda/polybench/pull/178)
+from `anatolvitold:feat/poly-mojo` to `tueda/polybench:main` on October 27, 2026.
+It contains the validated code commit above and is open for review.
 
-[Open the prepared comparison](https://github.com/tueda/polybench/compare/main...anatolvitold:feat/poly-mojo?expand=1), use [the title](title.txt) and
-[the PR description](pull-request.md), and submit from the owner's GitHub account.
-The release pin, lockfile, checks, code, and review evidence are already complete.
+The earlier API permission errors are retained as historical information in
+[the submission state](submission-state.json); they no longer block submission.
+
+The submitted description's Quick Start needs the pinned manifest path,
+`POLY_MOJO_PATH`, and polybench's actual CLI (`--type`, without a `run`
+subcommand). [The corrected section](quick-start.md) is ready to paste into the
+PR description. Updating the PR through this integration returned HTTP 403;
+the code and README already contain the correct setup.

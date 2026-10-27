@@ -1,12 +1,12 @@
 {
-  "state": "submission-blocked",
+  "state": "submitted",
   "upstream": "tueda/polybench",
   "base_branch": "main",
   "head": "anatolvitold:feat/poly-mojo",
   "review_branch": "drafts",
   "release": "poly_mojo==1.0.1",
   "submission_authorized": true,
-  "upstream_pr": null,
+  "upstream_pr": "https://github.com/tueda/polybench/pull/178",
   "package_record": {
     "prefix": "/workspace/polybench-contribution/environments/polymojo/.pixi/envs/default",
     "packages": [
@@ -58,7 +58,7 @@
       "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965"
     }
   },
-  "updated_utc": "2026-10-27T18:59:52.689668+00:00",
+  "updated_utc": "2026-10-27T19:06:25.246671+00:00",
   "code_commit": "c782c5351fcfcd0039a71dd632197fd6bab00c74",
   "validation": {
     "python_tests": 61,
@@ -71,8 +71,15 @@
     "inputs_identical_to_earlier_source_validation": true
   },
   "compare_url": "https://github.com/tueda/polybench/compare/main...anatolvitold:feat/poly-mojo?expand=1",
-  "submission_errors": {
+  "submitted_by": "anatolvitold",
+  "submitted_at": "2026-10-27T19:03:08Z",
+  "previous_submission_errors": {
     "graphql": "Resource not accessible by integration (createPullRequest)",
     "rest": "Resource not accessible by integration (HTTP 403)"
+  },
+  "description_correction": {
+    "state": "awaiting-owner-edit",
+    "replacement_section": "quick-start.md",
+    "error": "Resource not accessible by integration (HTTP 403)"
   }
 }
