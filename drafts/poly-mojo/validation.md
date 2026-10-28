@@ -65,3 +65,17 @@ This is adapter validation on the stated independently generated problems, not a
 official performance ranking. Only Linux x86-64 was tested. The earlier Python 3.6
 grammar check passed for the unchanged adapter; the full upstream Python-version
 CI matrix has not been run locally.
+
+## Rebase onto upstream CI fixes — October 28, 2026
+
+At the maintainer's request, the two contribution commits were rebased without
+conflicts onto upstream `29d2928bf1fbaf97cb47897ba866728f52d49df7`. The PR head is
+now `bbc64e67269c5d42ea232997e972c9023ef05dfe`. This includes upstream's APT cache
+and Python 3.6 Debian archive fixes, plus the other changes on main.
+
+All 61 Python tests and all applicable pre-commit hooks passed after the rebase,
+including the updated shfmt and workflow checks. The six newly added integration
+files are byte-identical to the previous PR head. The historical installed-wheel
+benchmark evidence above remains tied to the earlier base; benchmarks were not
+rerun for this rebase. The branch was pushed with an explicit force-with-lease
+against the previously verified remote head.

@@ -18,15 +18,17 @@ The community-channel package is now available: Poly Mojo 1.0.1 and APN Mojo
 pins the exact builds on Linux x86-64. The owner has authorized upstream
 submission after checking the installed package; no further approval is needed.
 
-Prepared code commit: `c782c5351fcfcd0039a71dd632197fd6bab00c74`. All 61 Python tests and pre-commit checks
-passed; the installed wheel passed 100 measured cases and 20 warmups against FLINT
-in both modes. [Release checks](release-checks/) preserve the evidence.
+Current code commit: `bbc64e67269c5d42ea232997e972c9023ef05dfe`, rebased onto
+upstream `29d2928bf1fbaf97cb47897ba866728f52d49df7`. All 61 Python tests and pre-commit checks
+passed again after the rebase. The earlier installed-wheel validation at
+`c782c5351fcfcd0039a71dd632197fd6bab00c74` passed 100 measured cases and 20 warmups
+against FLINT in both modes; those benchmarks were not rerun for the rebase. [Release checks](release-checks/) preserve the evidence.
 
 ## Submission
 
 The owner opened [PR #178](https://github.com/tueda/polybench/pull/178)
 from `anatolvitold:feat/poly-mojo` to `tueda/polybench:main` on October 27, 2026.
-It contains the validated code commit above and is open for review.
+It now contains the rebased code commit above and is open for review.
 
 The earlier API permission errors are retained as historical information in
 [the submission state](submission-state.json); they no longer block submission.
