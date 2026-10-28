@@ -1,0 +1,279 @@
+{
+  "complete": true,
+  "wheel": "/workspace/benchmark-review-178-2026-10-28/wheel-env/lib/python3.12/site-packages/polybench/solvers/polymojo.py",
+  "records": [
+    {
+      "profile": "smoke",
+      "kind": "nontrivial-gcd",
+      "measured": 5,
+      "seconds": 4.133470675995341,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=2"
+          ]
+        },
+        "binary_sha256": "8391d3d9d577985c60151ade19be6992181fd7671dea85f4ad1cd63387b4a712"
+      }
+    },
+    {
+      "profile": "smoke",
+      "kind": "trivial-gcd",
+      "measured": 5,
+      "seconds": 3.5306561069955933,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=2"
+          ]
+        },
+        "binary_sha256": "8391d3d9d577985c60151ade19be6992181fd7671dea85f4ad1cd63387b4a712"
+      }
+    },
+    {
+      "profile": "smoke",
+      "kind": "nontrivial-factor",
+      "measured": 5,
+      "seconds": 3.8027733209964936,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=2"
+          ]
+        },
+        "binary_sha256": "8391d3d9d577985c60151ade19be6992181fd7671dea85f4ad1cd63387b4a712"
+      }
+    },
+    {
+      "profile": "smoke",
+      "kind": "trivial-factor",
+      "measured": 5,
+      "seconds": 4.443002529995283,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=2"
+          ]
+        },
+        "binary_sha256": "8391d3d9d577985c60151ade19be6992181fd7671dea85f4ad1cd63387b4a712"
+      }
+    },
+    {
+      "profile": "testrun",
+      "kind": "nontrivial-gcd",
+      "measured": 50,
+      "seconds": 226.66967380699498,
+      "builds": 1,
+      "reuses": 1,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=5"
+          ]
+        },
+        "binary_sha256": "c01afcb54d846be5c78a1dad052d1f1f0d784de960675fb07ee6b06ff0475852"
+      }
+    },
+    {
+      "profile": "testrun",
+      "kind": "trivial-gcd",
+      "measured": 50,
+      "seconds": 4.140950164997776,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=5"
+          ]
+        },
+        "binary_sha256": "c01afcb54d846be5c78a1dad052d1f1f0d784de960675fb07ee6b06ff0475852"
+      }
+    },
+    {
+      "profile": "testrun",
+      "kind": "nontrivial-factor",
+      "measured": 50,
+      "seconds": 5.045415205000609,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=5"
+          ]
+        },
+        "binary_sha256": "c01afcb54d846be5c78a1dad052d1f1f0d784de960675fb07ee6b06ff0475852"
+      }
+    },
+    {
+      "profile": "testrun",
+      "kind": "trivial-factor",
+      "measured": 50,
+      "seconds": 5.284206664000521,
+      "builds": 0,
+      "reuses": 2,
+      "provenance": {
+        "inputs": {
+          "schema": 1,
+          "source_sha256": "996a8a8238d953c7d9534ab45de7d11cf7b5303b47a616fcac7b21349a8e3db1",
+          "compiler": "Mojo 1.2.0 (2016d0cd)",
+          "compiler_path": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/bin/mojo",
+          "modular_home": "/workspace/benchmark-review-178-2026-10-28/build with spaces/polymojo-shared/environment/.pixi/envs/default/share/max",
+          "platform": [
+            "Linux",
+            "x86_64"
+          ],
+          "packages": {
+            "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965",
+            "polynomials.mojoc": "c896926d8ea0cc5e50dececbe6e498a4854bc868affbdf934ba75e6b68b69cee",
+            "poly.mojoc": "d77c3effa7c1bf99764aaa738aa0ddf8dd0e74e8b63862d0157840186586794c"
+          },
+          "flags": [
+            "--num-threads",
+            "1",
+            "-O3",
+            "-D",
+            "NVARS=5"
+          ]
+        },
+        "binary_sha256": "c01afcb54d846be5c78a1dad052d1f1f0d784de960675fb07ee6b06ff0475852"
+      }
+    }
+  ],
+  "measured_cases": 220
+}

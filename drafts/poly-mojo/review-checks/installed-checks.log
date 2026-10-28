@@ -1,0 +1,17 @@
+START smoke nontrivial-gcd
+PASS smoke nontrivial-gcd 4.133470675995341 seconds
+START smoke trivial-gcd
+PASS smoke trivial-gcd 3.5306561069955933 seconds
+START smoke nontrivial-factor
+PASS smoke nontrivial-factor 3.8027733209964936 seconds
+START smoke trivial-factor
+PASS smoke trivial-factor 4.443002529995283 seconds
+START testrun nontrivial-gcd
+PASS testrun nontrivial-gcd 226.66967380699498 seconds
+START testrun trivial-gcd
+PASS testrun trivial-gcd 4.140950164997776 seconds
+START testrun nontrivial-factor
+PASS testrun nontrivial-factor 5.045415205000609 seconds
+START testrun trivial-factor
+PASS testrun trivial-factor 5.284206664000521 seconds
+DONE 220

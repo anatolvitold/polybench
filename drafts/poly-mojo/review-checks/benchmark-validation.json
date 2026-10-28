@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "kind": "nontrivial-gcd",
+      "measured": 50,
+      "seconds": 5.942015011998592,
+      "driver_builds": 0,
+      "driver_reuses": 1
+    },
+    {
+      "kind": "trivial-gcd",
+      "measured": 50,
+      "seconds": 5.039945067001099,
+      "driver_builds": 0,
+      "driver_reuses": 1
+    },
+    {
+      "kind": "nontrivial-factor",
+      "measured": 50,
+      "seconds": 12.575404407994938,
+      "driver_builds": 0,
+      "driver_reuses": 1
+    },
+    {
+      "kind": "trivial-factor",
+      "measured": 50,
+      "seconds": 31.196693891004543,
+      "driver_builds": 0,
+      "driver_reuses": 1
+    }
+  ]
+}

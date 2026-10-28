@@ -1,0 +1,31 @@
+........................................................................ [ 97%]
+..                                                                       [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                                          Stmts   Miss  Cover
+-----------------------------------------------------------------
+polybench/__init__.py                             2      0   100%
+polybench/__main__.py                            13     13     0%
+polybench/main.py                               314    281    11%
+polybench/plot.py                                67     53    21%
+polybench/poly.py                                52      7    87%
+polybench/prob.py                               153     23    85%
+polybench/solver.py                             220    104    53%
+polybench/solvers/__init__.py                     5      0   100%
+polybench/solvers/fer.py                        117    101    14%
+polybench/solvers/flint.py                       33     23    30%
+polybench/solvers/form.py                       136    121    11%
+polybench/solvers/mma.py                         53     40    25%
+polybench/solvers/polymojo.py                   246     10    96%
+polybench/solvers/polymojo/check_results.py      36      8    78%
+polybench/solvers/reform.py                      24     15    38%
+polybench/solvers/rings.py                       30     21    30%
+polybench/solvers/singular.py                    65     52    20%
+polybench/solvers/symbolica.py                   25     15    40%
+polybench/util.py                                21      1    95%
+polybench/version.py                             11      4    64%
+-----------------------------------------------------------------
+TOTAL                                          1623    892    45%
+Coverage HTML written to dir htmlcov
+74 passed in 3.05s

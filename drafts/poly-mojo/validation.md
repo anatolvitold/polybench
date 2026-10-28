@@ -69,8 +69,8 @@ CI matrix has not been run locally.
 ## Rebase onto upstream CI fixes — October 28, 2026
 
 At the maintainer's request, the two contribution commits were rebased without
-conflicts onto upstream `29d2928bf1fbaf97cb47897ba866728f52d49df7`. The PR head is
-now `bbc64e67269c5d42ea232997e972c9023ef05dfe`. This includes upstream's APT cache
+conflicts onto upstream `29d2928bf1fbaf97cb47897ba866728f52d49df7`. The rebased PR head was
+`bbc64e67269c5d42ea232997e972c9023ef05dfe`. This includes upstream's APT cache
 and Python 3.6 Debian archive fixes, plus the other changes on main.
 
 All 61 Python tests and all applicable pre-commit hooks passed after the rebase,
@@ -79,3 +79,42 @@ files are byte-identical to the previous PR head. The historical installed-wheel
 benchmark evidence above remains tied to the earlier base; benchmarks were not
 rerun for this rebase. The branch was pushed with an explicit force-with-lease
 against the previously verified remote head.
+
+## Maintainer review changes — October 28, 2026
+
+The updated head is `a19ed93f5120e510d0b0a2dc52d3baad6a1daa02`. The adapter installs its pinned
+packages automatically through Pixi, discovers that environment's prefix, and
+uses its matching compiler without activating the benchmark's parent process.
+The packaged driver, manifest, lockfile and CI checker are all in
+`polybench/solvers/polymojo/`. A separate commit removes the redundant boolean
+conversion from `poetry2pip.py`; removing the obsolete type-ignore passes mypy.
+
+The Python 3.7–3.13 `testrun` jobs enable both modes. `bench` enables ordinary
+Poly Mojo. Strict setup and output checks prevent silently skipped or failed
+backends. CI caches keep package environments, but exclude native drivers because
+Mojo defaults to the host CPU; the driver is shared within a job.
+
+Validation from a freshly built and separately installed wheel:
+
+- 74 Python tests and all applicable pre-commit hooks passed.
+- Automatic setup with no package or compiler overrides succeeded, including a
+  build path containing spaces. Module hashes match the published release.
+- Four small problem families: 5 measured cases and 1 warmup each, 2 variables,
+  degrees 1–3, 2–4 terms, coefficient bound 100; both modes matched FLINT.
+- Standard `testrun` parameters: 50 measured cases and 10 warmups per family,
+  5 variables, maximum degree 30, maximum 5 terms; both modes matched FLINT.
+- Standard `bench` parameters: 50 measured cases and 10 warmups per family,
+  5 variables, maximum degree 30, maximum 30 terms; ordinary mode matched FLINT.
+- Seed 42 and uniform exponent distribution throughout, using FLINT 3.3.1 as the
+  reference. Every certified result passed certificate verification.
+- Each backend batch had a 120-second execution limit locally; installation and
+  compilation ran before that limit and outside operation timers. CI retains
+  upstream's existing timeout. The first build of each variable count compiles
+  one driver; later batches and the other mode reuse it. No library rebuilds.
+
+The first local attempt completed automatic Poly Mojo setup but stopped because
+CMake was absent from the reference backend's PATH. Correcting the test launcher
+resolved that environment issue; the compiled driver was reused. Full native
+checks ran under Python 3.12.14 on Linux x86-64, with the independent Mojo package
+environment using Python 3.12.16. Other Python versions are covered by CI.
+[Review evidence](review-checks/) contains the package records and check outputs.

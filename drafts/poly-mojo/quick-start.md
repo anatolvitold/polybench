@@ -1,15 +1,10 @@
 ### Quick Start
-From the polybench checkout on Linux x86-64, with Python 3.12 and Pixi installed:
 
-```bash
-python3.12 -m venv .venv
-.venv/bin/python -m pip install .
-pixi install --locked --manifest-path environments/polymojo/pixi.toml
-eval "$(pixi shell-hook --manifest-path environments/polymojo/pixi.toml --shell bash)"
-export POLY_MOJO_PATH="$CONDA_PREFIX/lib/mojo"
+Install [Pixi](https://pixi.sh/) and run from the polybench checkout on Linux x86-64:
 
-.venv/bin/python -m polybench --polymojo --type nontrivial-gcd \
-  --nvars 2 --max-degree 3 --max-nterms 4 --nproblems 5 --nwarmups 1
-.venv/bin/python -m polybench --polymojocertified --type nontrivial-factor \
-  --nvars 2 --max-degree 3 --max-nterms 4 --nproblems 5 --nwarmups 1 --keep-temp
+```sh
+./run.sh --polymojo --polymojocertified --keep-temp \
+  --type nontrivial-gcd --nvars 2 --max-degree 3 --max-nterms 4
 ```
+
+Package installation, compiler selection and driver setup are automatic; no shell activation or package-path configuration is required. See the [README](https://github.com/anatolvitold/polybench/blob/feat/poly-mojo/README.md#poly-mojo-setup) for timing details and development overrides.

@@ -1,0 +1,9 @@
+START nontrivial-gcd
+PASS nontrivial-gcd 5.942015011998592 seconds
+START trivial-gcd
+PASS trivial-gcd 5.039945067001099 seconds
+START nontrivial-factor
+PASS nontrivial-factor 12.575404407994938 seconds
+START trivial-factor
+PASS trivial-factor 31.196693891004543 seconds
+DONE

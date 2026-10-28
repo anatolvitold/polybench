@@ -58,8 +58,8 @@
       "apn_mojo.mojoc": "53145dacd8b895ab3a6b3d9119a8121f44bc03e10978b68ebaa1feeb8b603965"
     }
   },
-  "updated_utc": "2026-10-28T12:15:57.364717+00:00",
-  "code_commit": "bbc64e67269c5d42ea232997e972c9023ef05dfe",
+  "updated_utc": "2026-10-28T13:59:54.805997+00:00",
+  "code_commit": "a19ed93f5120e510d0b0a2dc52d3baad6a1daa02",
   "validation": {
     "python_tests": 61,
     "pre_commit": "passed",
@@ -79,11 +79,10 @@
     "rest": "Resource not accessible by integration (HTTP 403)"
   },
   "description_correction": {
-    "state": "resolved",
-    "replacement_section": "quick-start.md",
-    "verified_utc": "2026-10-27T19:08:11.244790+00:00",
-    "pr_updated_at": "2026-10-27T19:07:34Z",
-    "previous_edit_error": "Resource not accessible by integration (HTTP 403)"
+    "state": "awaiting-owner-edit",
+    "replacement_description": "pull-request.md",
+    "reason": "Automatic setup and relocated files supersede the old manual Quick Start.",
+    "error": "Resource not accessible by integration (HTTP 403)"
   },
   "rebase": {
     "previous_head": "c782c5351fcfcd0039a71dd632197fd6bab00c74",
@@ -95,5 +94,18 @@
     "added_integration_files_byte_identical": true,
     "benchmark_rerun": false,
     "pushed_with_explicit_lease": true
+  },
+  "review_response": {
+    "request": "https://github.com/tueda/polybench/pull/178#issuecomment-6470333052",
+    "code_commit": "a19ed93f5120e510d0b0a2dc52d3baad6a1daa02",
+    "poetry2pip_commit": "5deaeb1",
+    "python_tests": 74,
+    "pre_commit": "passed",
+    "installed_wheel_auto_setup": "passed",
+    "both_modes_measured_cases": 220,
+    "ordinary_benchmark_measured_cases": 200,
+    "reference": "FLINT 3.3.1",
+    "evidence": "review-checks/",
+    "thread_reply_posted": false
   }
 }
